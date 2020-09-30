@@ -1,0 +1,13 @@
+[package]
+name = "llvm"
+version = "0.1.0"
+authors = ["Evgeny Ukhanov <mrlsd@ya.ru>"]
+edition = "2018"
+
+[dependencies]
+
+[dependencies.inkwell]
+git = "https://github.com/TheDan64/inkwell"
+rev = "7b2e20f"
+features = ["llvm10-0"]
+ 
