@@ -6,6 +6,7 @@ edition = "2018"
 
 [dependencies]
 llvm-sys = "100.2.0"
+cc = "1.0.61"
 
 [dependencies.inkwell]
 git = "https://github.com/TheDan64/inkwell"
